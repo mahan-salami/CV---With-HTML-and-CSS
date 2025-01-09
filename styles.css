@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff3f3;
+    font-family: 'inter', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+    margin-left: 47%;
+}
+.container {
+    width: 1000px;
+    height: 1300px;
+    margin: 1.5rem auto;
+    display: flex;
+    background-color: rgb(254, 254, 254);
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sidebar-section-contact-skills{
+    background-color: #474747;
+    width: 360px;
+    height: 1300px;
+    z-index: 1;
+    border-radius: 25px 0px 0px 25px ;
+    color: #fff;
+    flex-direction: column;
+}
+
+
+.orange-background{
+    background-color: #ffa02d;
+    width: 330px;
+    height: 300px;
+    margin-top: 30px;
+    border-radius: 0px 250px 250px 0px ;
+    
+}
+
+.orange-background img {
+    border-radius: 200px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 280px;
+    height: auto;
+}
+
+.main {
+    padding-left: 56px;
+    padding-top: 120px;
+    background-color: #fff;
+    display: block;
+  }
+  
+  .name {
+    margin: 3em 3em 5em 0;
+  }
+  
+  .name small {
+    color: #00658d;
+    font-size: 19px;
+    font-weight: 700;
+  }
+
+  .sidebar-section-contact-skills h1 {
+    padding-left: 20px;
+  }
+
+  .line-contact{
+    width: 250px;
+    height: 3px;
+    background-color: #ffffff;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    transition: 0.5s;
+    color: #e7e4e4;
+  }
+  a:hover{
+    transition: 0.5s;
+    color: rgb(32, 203, 255);
+  }
+  .sidebar-section-contact-skills p {
+    padding-left: 20px;
+  }
+  .sidebar-section-contact-skills a {
+    padding-left: 20px;
+  }
+
+  ul{
+    padding-left: 40px;
+    color: #e7e4e4;
+  }
+
+
+  .line-main{
+    width: 450px;
+    height: 3px;
+    background-color: #000000;
+  }
+
+  .section-title:before {
+    content: "#";
+    color: orange;
+    margin-right: 5px;
+}
+
+
+.name-orange span{
+    color: orange;
+}
+
+.years {
+  width: 125px;
+  height: 25px ;
+  background-color: #474747;
+  color: #fff;
+  border-radius: 20px;
+  font-size: small;
+}
+
+.years h4 {
+ padding-left: 15px;
+ padding-top: 3px;
+}
+
+.only-years{
+  width: 112px;
+  height: 25px ;
+  background-color: #474747;
+  color: #fff;
+  border-radius: 20px;
+  font-size: small;
+}
+
+.only-years h4 {
+  padding-left: 17px;
+  padding-top: 4px;
+ }
+
+ .years span{
+  color: orange;
+ }
+
+ #font-size{
+  font-size: small;
+  color: #e7e4e4;
+ }
+
+ #strong{
+  font-weight:bold;
+ }
+ 
+ .grey{
+  color: #666666;
+ }
+
+
